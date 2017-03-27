@@ -1,3 +1,2 @@
-## Project Website
-### PT-Atman 
+## Project Website - PT-Atman 
 #### Personal Trainer - Ivan Atmadiwiryo
