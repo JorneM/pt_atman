@@ -1,0 +1,214 @@
+/* ---------- General --------*/
+
+body {
+    padding-top: 70px;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+img {
+    margin-left: 20px;
+}
+
+div.c-wrapper {
+    <!-- width: 80%;
+    /* for example */
+    -->margin: auto;
+}
+
+#maincontainer{
+  height: 100%;
+}
+
+#wrap{
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.col-lg-4,
+.col-sm-4,
+.col-xs-12 {
+    margin: 35px 0px 35px 0px;
+}
+
+p {
+    text-align: justify;
+    background-color: #009fe3;
+    padding: 8px;
+}
+
+
+/* When you want your container to have the full viewport size*/
+
+
+/*.container {
+        width:100%;
+    }
+*/
+
+
+/* ---------- Link Adjust --------*/
+
+a {
+    color: #fff;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: #494948;
+    text-decoration: none;
+}
+
+
+/* ---------- Glyphicon Adjust --------*/
+
+.myGlyphicon1 {
+    font-size: 18px;
+}
+
+* ---------- Nav --------*/
+
+.navbar-inverse {
+    background-color: #061D25;
+}
+
+.navbar-inverse .navbar-nav li {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0px 10px 0px;
+    color: #4cb691;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+/* ---------- Social Button Icons --------*/
+.social ul li {
+    min-width: 42px;
+    min-height: 42px;
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+.social i:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social ul li a i{
+  height: 16px;
+  width: 16px;
+  color: #494948;
+}
+
+/* ---------- Footer --------*/
+.footer {
+    background: #061D25;
+    padding: 0px;
+    color: #494948;
+}
+adress h6 {
+    margin: 12px 0px 0px 0px;
+}
+
+adress h6 span {
+    margin-right: 5px;
+}
+.fa-heart{
+  color: #337ab7;
+}
+
+.fa-heart:hover{
+  color: #fff;
+}
+
+#link-me{
+  color: #337ab7;
+}
+
+#link-me:hover{
+  color: #fff;
+}
+/* ---------- Carousel --------*/
+
+#myCarousel .item {
+    height: 150px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+}
+
+.carouselimg {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 380px !important;
+    /* This sets the height of the carousel !IMPORTTANT! */
+}
+
+.carousel-caption {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/* ---------- Carousel-Indicators --------*/
+
+.carousel-indicators li {
+    border: 2px solid #fff;
+}
+
+.carousel-indicators .active {
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+
+/* ---------- Media Queries --------*/
+
+@media(min-width:768px) {
+    body {
+        padding-top: 95px;
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 20px;
+    }
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
