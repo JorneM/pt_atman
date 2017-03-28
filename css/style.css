@@ -4,7 +4,7 @@ body {
     padding-top: 70px;
     color: whitesmoke;
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 img {
@@ -43,7 +43,13 @@ p {
     padding: 8px;
 }
 
-
+.btn-succes{
+  background-color:  #337ab7;
+}
+.btn-succes:hover{
+  background-color: #286192;
+  color: #fff;
+}
 /* When you want your container to have the full viewport size*/
 
 
@@ -191,24 +197,4 @@ adress h6 span {
 .carousel-indicators .active {
     border: 2px solid #fff;
     background-color: #fff;
-}
-
-
-/* ---------- Media Queries --------*/
-
-@media(min-width:768px) {
-    body {
-        padding-top: 95px;
-    }
-    .navbar-fixed-top .navbar-brand {
-        padding: 20px;
-    }
-}
-
-@media (min-width:992px) {
-
-}
-
-@media (min-width:1200px) {
-
 }

@@ -1,0 +1,66 @@
+/* ---------- Media Queries -------- */
+
+/* Smartphone 320px */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    body {
+      padding-top: 60px;
+      background-color: green;
+    }
+    .navbar-fixed-top .navbar-brand {
+      padding: 20px;
+    }
+    .navbar-brand img{
+      display: none;
+    }
+    .navbar-nav li{
+      text-align: center;
+    }
+    .navbar-header{
+      height: 60px;
+    }
+    .footer {
+      text-align: center;
+    }
+    .social{
+      text-align: center;
+      margin-right: 80px;
+    }
+    .img-responsive{
+      margin: 0 auto;
+    }
+}
+
+/* target the viewport less then then 960px*/
+/* Tablet 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  body{
+    padding-top: 60px;
+    background-color: yellow;
+  }
+  .navbar-nav li{
+    text-align: center;
+  }
+  .navbar-header{
+    height: 80px;
+  }
+  .navbar-brand img{
+    margin: 15px 0 15px 0px;
+  }
+}
+
+
+/* target the viewport less then then 1024px*/
+/* Laptop 1024px */
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  body{
+    background-color: purple;
+  }
+}
+
+/* target the viewport less then then 1600x*/
+/* Desktop 1600px */
+@media only screen and (min-width: 1025px) and (max-width: 1600px){
+  body{
+    background-color: orange;
+  }
+}
